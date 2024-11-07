@@ -1,0 +1,178 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+body{
+    font-family:  "Nico Moji";
+    font-family: 'Kaisei Decol', serif;
+    line-height: 1.7;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    margin-top: 45px;
+    font-family: 'Potta One';
+}
+main ,.dummy{
+    background-image: url(../img/背景画像.jpg);
+    z-index: 10;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+    line-height: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: rgb(3, 0, 0);
+}
+.main-nav a:hover{
+    background-image: url(../img/背景画像.jpg);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-image: url(../img/背景画像.jpg);
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 1000;
+}
+.wrapper{
+    margin: 0 auto;
+    padding: 0 4%;
+}
+section {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+h6{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    z-index: 0;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h2{
+    margin-bottom: 0px;
+}
+.img{
+    width: 500;
+    height: 400;
+}
+li{
+    list-style:none;
+}
+ul{
+    justify-content: center;
+}
+#slide{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+#slide ul{
+    position: absolute;
+    width: 3000px;
+}
+#slide li{
+    float: left;
+    width: 500px;
+    list-style-type: none;
+}
+#prevBtn{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+}
+#nextBtn{
+    position: absolute;
+    padding: 0;
+    top: 200px;
+    right: 20px;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+}
+.grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3,minmax(250px,1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.gridp{
+    width: 400px;
+    height: 300px;
+}
+#bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+#item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 640px;
+    height: 420px;
+}
+.setu{
+    font-family: 'Yuji Mai', serif;
+    margin-top: 0;
+    color: black;
+}
+.name{
+    font-family: 'Kaisei Decol', serif;
+}
+footer{
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+.meshi{
+    display: flex;
+}
+.map{
+    margin-left: 270px;
+}
+.mapmeshi{
+    margin-left: 100px;
+    padding-top: 20px;
+}
